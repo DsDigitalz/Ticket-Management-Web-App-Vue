@@ -1,11 +1,10 @@
-<template>
-  <div class="text-3xl">
-    <h1>Welcome</h1>
-  </div>
-</template>
-
-<script>
-export default {};
+<script setup>
+// No script needed here unless you want global logic or state providers.
+// The RouterView handles rendering based on your routes configuration.
 </script>
 
-<style lang="scss" scoped></style>
+<template>
+  <main>
+    <RouterView />
+  </main>
+</template>
