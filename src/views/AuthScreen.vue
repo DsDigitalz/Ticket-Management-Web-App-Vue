@@ -8,7 +8,7 @@
       >
         <!-- Title -->
         <h2 class="text-3xl font-bold text-center text-[#F8FAFC] mb-8">
-          {{ isLogin ? "Login to TicketApp" : "Create Account" }}
+          {{ isLogin ? "Login to Ticketrax" : "Create Account" }}
         </h2>
 
         <!-- Auth Form -->
